@@ -3,7 +3,6 @@
 # Full description of class puppet here.
 #
 # Copyright 2013 Your name here, unless otherwise noted.
-#
 class puppet (
 	$version 	= 'latest',
 	$status		= 'running',
