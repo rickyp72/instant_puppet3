@@ -1,7 +1,7 @@
 # == Class: puppet
 #
 # Full description of class puppet here.
-# Ricky
+# Ricky Parkinson
 # Copyright 2013 Your name here, unless otherwise noted.
 class puppet (
 	$version 	= 'latest',
