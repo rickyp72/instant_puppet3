@@ -1,5 +1,5 @@
 node default {
-	class { 'puppet': }
+	#class { 'puppet': }
 }
 
 #node 'rhel6puppet.localdomain' inherits default {
@@ -13,3 +13,9 @@ node default {
 #		subscribe => Package['puppet-server'],
 #	}
 #}
+node 'puppetmaster01.home' {
+  user { 'testuser':
+    ensure => present,
+  }
+  
+}
