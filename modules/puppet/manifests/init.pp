@@ -6,7 +6,7 @@
 # Puppet 3
 # Copyright 2013 Your name here, unless otherwise noted.
 class puppet (
-	$version 	= 'puppet-enterprise-3.0.1',
+	$version 	= 'latest',
 	$status		= 'running',
 	$environment 	= 'production',
 	$server		= 'puppet.rnb.localdomain',
